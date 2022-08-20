@@ -7,10 +7,10 @@ const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
 const ResourceLimitPlugin = require('./resourceLimitPlugin.js');
 
+// 禁止在 src/views 内引用 jquery
 module.exports = defineConfig({
 	configureWebpack: config => {
 		config.plugins.push(
-            // 禁止在 src/views 内引用 jquery
 			new ResourceLimitPlugin({
 				folder: path.join(__dirname, 'src/views'),
 				limit: ['jquery']
