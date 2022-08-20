@@ -1,0 +1,25 @@
+
+   
+{
+  "name": "resource-limit-plugin",
+  "version": "1.0.0",
+  "description": "禁止指定资源在项目指定文件（夹）里被引用",
+  "main": "index.js",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoyao316/resource-limit-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "xiaoyao316",
+  "license": "MIT"
+}
