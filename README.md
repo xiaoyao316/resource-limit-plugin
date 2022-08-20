@@ -19,3 +19,5 @@ module.exports = defineConfig({
 	}
 });
 ```
+
+#### 本插件近支持 webpack5
